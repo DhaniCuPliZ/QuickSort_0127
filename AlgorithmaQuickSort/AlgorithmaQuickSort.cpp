@@ -16,13 +16,12 @@ void input() {
 		if (n <= 20)
 			break;
 		else
-			cout << "\nMaksimum panjang array adalah 20" << endl;		
+			cout << "\nMaksimum panjang array adalah 20" << endl;
 	}
 
 	cout << "\n------------------" << endl;
 	cout << "\nEnter Array Element << endl;
 	cout << "\n------------------" << endl;
-
 
 	for (int i = 0; i < n; i++)
 	{
@@ -40,9 +39,9 @@ void swap(int x, int y)
 
 }
 
-void q_short(int low, int high)
+void q_short( int low, int high)
 {
-
+	
 	int temp;
 	int pivot, i, j;
 	if (low > high) {
@@ -123,4 +122,7 @@ int main()
 		system("cls");
 
 	} while (true);
+
+	return 0;
+}
 

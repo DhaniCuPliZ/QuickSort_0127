@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClCompile Include="AlgorithmaQuickSort.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AlgorithmaQuickSort.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

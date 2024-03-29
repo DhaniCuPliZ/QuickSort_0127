@@ -34,7 +34,7 @@ void input() {
 void swap(int x, int y)
 {
 	int temp = arr[x];
-	arr[x] = aarr[y];
+	arr[x] = arr[y];
 	arr[y] = temp;
 	mov_count++;
 
@@ -43,5 +43,9 @@ void swap(int x, int y)
 void q_short(int low, int high)
 {
 
-
+	int temp;
+	int pivot, i, j;
+	if (low > high) {
+		return;
+	}
 }

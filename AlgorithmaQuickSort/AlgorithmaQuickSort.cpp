@@ -23,6 +23,7 @@ void input() {
 	cout << "\nEnter Array Element << endl;
 	cout << "\n------------------" << endl;
 
+
 	for (int i = 0; i < n; i++)
 	{
 		cout << "<" << (i + 1) << ">";
@@ -31,3 +32,10 @@ void input() {
 }
 
 void swap(int x, int y)
+{
+	int temp = arr[x];
+	arr[x] = aarr[y];
+	arr[y] = temp;
+	mov_count++;
+
+}

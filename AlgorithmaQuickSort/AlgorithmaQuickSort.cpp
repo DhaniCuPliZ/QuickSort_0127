@@ -56,7 +56,7 @@ void q_short(int low, int high)
 
 	while (i <= j)
 	{
-	
+
 		while ((arr[i] <= pivot) && (i <= high))
 		{
 			i++;
@@ -76,4 +76,18 @@ void q_short(int low, int high)
 			swap(i, j);
 		}
 	}
+
+	if (low, j);
+
+		swap(low, j);
+	}
+
+
+q_short(low, j - 1);
+
+
+
+q_short(j + 1, high);
+
+
 }

@@ -121,4 +121,6 @@ int main()
 
 		system("pause");
 		system("cls");
-	}
+
+	} while (true);
+
